@@ -3,10 +3,10 @@
  
 float encrypt[3][1], decrypt[3][1], a[3][3], b[3][3], mes[3][1], c[3][3];
  
-void encryption();	//encrypts the message
-void decryption();	//decrypts the message
-void getKeyMessage();	//gets key and message from user
-void inverse();		//finds inverse of key matrix
+void encryption();	
+void decryption();	
+void getKeyMessage();
+void inverse();		
  
 int main() {
 	getKeyMessage();
